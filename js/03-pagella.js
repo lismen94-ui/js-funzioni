@@ -15,7 +15,14 @@
 */
 
 // # La funzione
-
+function calcolaMediaPonderata ( scritto, orale){
+  const media = (scritto*2 + orale) /3;
+  return (media)
+}
 
 // # Le prove: una riga di console.log per ogni caso di "Come verifichi"
-
+console.log(`Media: ${calcolaMediaPonderata(6, 9).toFixed(1)}`);
+console.log(`Media: ${calcolaMediaPonderata(9, 6).toFixed(1)}`);
+console.log(`Media: ${calcolaMediaPonderata(8, 6).toFixed(1)}`);
+console.log(`Media: ${calcolaMediaPonderata(5, 8).toFixed(1)}`);
+console.log(`Media: ${calcolaMediaPonderata(10, 10).toFixed(1)}`);
